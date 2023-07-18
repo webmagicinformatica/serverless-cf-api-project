@@ -1,4 +1,9 @@
 {
     "httpMethod": "POST",
-    "body": "{"id": "007","name": "James Bond", "email": "bond@jamesbond.com", "message": "Name is Bond, James Bond"}"
+    "body": {
+        "id": "007",
+        "name": "James Bond",
+        "email": "bond@jamesbond.com",
+        "message": "Name is Bond, James Bond"
+    }
 }
