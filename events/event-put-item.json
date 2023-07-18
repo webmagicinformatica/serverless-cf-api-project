@@ -1,4 +1,4 @@
 {
-    "httpMethod": "POST",
-    "body": "{\"id\": \"001\",\"name\": \"Dabeer\"}"
+  "httpMethod": "POST",
+  "body": "{\"id\": \"001\",\"name\": \"Dabeer\",\"email\": \"dab8106@gmail.com\",\"message\": \"Dabeer is webmagic\" }"
 }
