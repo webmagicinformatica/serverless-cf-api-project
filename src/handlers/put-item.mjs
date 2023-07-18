@@ -42,7 +42,13 @@ export const putItemHandler = async (event) => {
 
     const response = {
         statusCode: 200,
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers' : 'Content-Type',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Methods': '*'
+        }
     };
 
     // All log statements are written to CloudWatch
